@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+ list-style: none;
+}
+.navbar{
+    display: flex;
+    position: absolute;
+width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+}
+.navbar h1{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    color:black;
+}
+.navbar-links{
+    display: flex;
+    align-items: center;
+}
+.navbar-links li{
+    margin: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar-links li:hover{
+    color:dodgerblue;
+}
+.ctn{
+    color: black;
+    padding: 8px 16px;
+    border-radius: 13px;
+    border-style: solid;
+    border-color: black;
+    font-family: monospace;
+    font-weight: 200;
+}
+.ctn:hover{
+    color: cornflowerblue;
+}
+header{
+    display: flex;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1530543787849-128d94430c6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80");
+}
+.content{
+    margin-top: 300px;
+    margin-left: 30px;
+    
+    
+}
+.content h1{
+    font-size: 50px;
+}
+.content h3{
+    font-size: 26px;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+.ctn2{
+    border-radius: 13px;
+    border-style: solid;
+    border-color: black;
+    font-family: monospace;
+    font-weight: 200;
+    color: black;
+    padding: 8px 16px;
+    margin-left: 10px;
+}
+.ctn2:hover{
+    color: cornflowerblue;
+}
+
+.videoplay{
+    bottom: 120px;
+    position: relative;
+    left: 890px;
+    width: 600px;
+    height: 600px;
+    
+}
+.h11{
+    text-align: center;
+    right: 540px;
+    position: relative;
+    top: 250px;
+}
+.h12{
+    position: relative;
+    top: 280px;
+    left: 35px;
+    font-weight: lighter;
+}
+.ue{
+    text-align: center;
+}
+.box{
+    margin-left: 30px;
+    margin-top: 70px;
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+.img1{
+    padding-left: 70px;
+}
+.bottom{
+    
+    background-color: lightslategrey;
+}
+footer{
+    list-style: none;
+    margin-top: 90px;
+    margin-left: 130px;
+}
+.h13{
+    position: relative;
+    bottom: 113px;
+    left: 270px;
+}
+li{
+    margin-top: 15px;
+}
+.h33{
+    position: relative;
+  top: 20px;
+}
+.h43{
+    position: relative;
+  bottom: 247px;
+  left:540px;
+} 
+.search{
+    position: relative;
+    bottom: 310px;
+    left: 880px;
+    height: 35px;
+    width: 300px;
+    border-style: solid;
+    border-radius: 4px;
+
+}
+.h4{
+    font-size: 20px;
+    position: relative;
+    bottom: 380px;
+    left: 885px;
+    color:darkblue;
+}
